@@ -30,7 +30,7 @@ API_HASH = "abcdef1234567890abcdef1234567890"
 get them here:  
 [Telegtam](https://my.telegram.org/apps)
 
-**Running the bot**  
+## Running the bot  
 ```python
 python main.py
 ```
