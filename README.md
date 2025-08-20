@@ -3,7 +3,7 @@
 
 A modular Telegram userbot using **telethon**.
 
-*Repository structure:*
+*Repository structure:*  
 userbot/ ← core bot  
   files, modules, main.py, requirements..  
 private/ ← configuration and session files  
