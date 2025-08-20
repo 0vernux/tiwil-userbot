@@ -4,10 +4,10 @@
 A modular Telegram userbot using **telethon**.
 
 *Repository structure:*
-userbot/ ← core bot
-  files, modules, main.py, requirements..
-private/ ← configuration and session files
-out_modules/ ← extra modules
+userbot/ ← core bot  
+  files, modules, main.py, requirements..  
+private/ ← configuration and session files  
+out_modules/ ← extra modules  
 README.md
 
 ## Setup & Installation 
@@ -21,23 +21,23 @@ cd tieil-userbot
 ```python
 pip install -r requirements.txt
 ```
-3. *Configure API keys*
+3. *Configure API keys*  
 edit ../private/config.py and set yout API ID and API HASH:
 ```python
 API_ID = 123456
 API_HASH = "abcdef1234567890abcdef1234567890"
 ```
-get them here:
+get them here:  
 [Telegtam](https://my.telegram.org/apps)
 
-**Running the bot**
+**Running the bot**  
 ```python
 python main.py
 ```
-• first run will ask for your phone number, code from Telegram and 2FA password (if enabled)
+• first run will ask for your phone number, code from Telegram and 2FA password (if enabled)  
 • session files will be saved in private/ for future runs
 
-## Modules
+## Modules  
 
 The userbot comes with built-in modules located in `userbot/modules`.  
 These modules are included by default.  
