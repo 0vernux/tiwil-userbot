@@ -15,7 +15,7 @@ README.md
 1. *Clone the Repository*
 ```bash
 git clone https://github.com/0vernux/tiwil-userbot.git
-cd tieil-userbot
+cd tiwil-userbot
 ```
 2. *Install dependencies*
 ```python
